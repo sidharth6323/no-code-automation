@@ -10,6 +10,7 @@ from utils.nested_value_extractor import NestedValueExtractor
 # Path to your CSV file
 csv_file_path = 'sample_automation.xlsx'
 
+
 def main():
     # Initialize components
     config_loader = ConfigLoader(csv_file_path)
